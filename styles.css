@@ -3,9 +3,10 @@ body {
 }
 
 .header-section {
-    background: url('header-bg.jpg') no-repeat center center/cover;
+    background: url('banner/Sara\ Willson.jpg') no-repeat center center/cover;
     color: white;
     padding: 100px 0;
+    margin-bottom: 30px;
 }
 
 .header-section h1 {
