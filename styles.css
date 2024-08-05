@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 .header-section {
@@ -7,6 +8,8 @@ body {
     color: white;
     padding: 100px 0;
     margin-bottom: 30px;
+    border: 1px rgb(239, 232, 232) solid;
+    border-radius: 10%;
 }
 
 .header-section h1 {
@@ -34,6 +37,21 @@ section {
     padding: 60px 0;
 }
 
+section .features{
+    display: flex;
+}
+
+section .container{
+    max-width: 1200px;
+}
+
+section .row .col-lg-4, h3 p{
+    margin: 20px 0;
+}
+
+section .container, h3, p{
+        margin: 0 auto;
+}
 .footer {
     background: #e6e14c;
 }
